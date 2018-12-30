@@ -12,7 +12,7 @@ HOMEPAGE="http://qt4-fsarchiver.sourceforge.net/"
 SRC_URI="mirror://sourceforge/project/qt4-fsarchiver/${PN}/source/${P}-0.tar.gz"
 LICENSE="GPL-2"
 SLOT="0"
-KEYWORDS="amd64 x86"
+KEYWORDS="amd64 x86 ~arm64"
 
 IUSE=""
 
