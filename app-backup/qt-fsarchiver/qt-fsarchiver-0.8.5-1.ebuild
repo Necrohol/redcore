@@ -33,7 +33,9 @@ DEPEND="${CDEPEND}"
 S="${WORKDIR}/${PN}"
 
 src_prepare() {
-	epatch ${FILESDIR}/redcorelinux.patch
+	epatch ${FILESDIR}/gentoo-qt-fsarchiver1.patch
+	## fix pro , fix desktop.
+	epatch ${FILESDIR}/gentoo-qt-fsarchiver2.patch
 	sed -i \
 		-e "/icon.path/s:app-install/icons:${PN}:" "${PN}.pro" \
 		|| die "sed on ${PN}.pro failed"
