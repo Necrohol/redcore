@@ -27,7 +27,10 @@ CDEPEND="app-arch/bzip2
 	sys-fs/e2fsprogs
 	sys-libs/zlib"
 RDEPEND="${CDEPEND}
-	>=app-backup/fsarchiver-${MIN_PV}[lzma,lzo]"
+	>=app-backup/fsarchiver-${MIN_PV}[lzma,lzo]
+	app-backup/qt-fsarchiver-terminal
+	"
+	### app-backup/qt-fsarchiver-terminal backend for USER operations ie DISKS or sudo etc. 
 DEPEND="${CDEPEND}"
 
 S="${WORKDIR}/${PN}"
