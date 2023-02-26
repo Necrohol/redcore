@@ -1,4 +1,5 @@
 # repo MiRROR
+http://git.redcorelinux.org/cgit/redcore-desktop/
 
 
 Redcore Linux desktop ebuilds. Mostly stable and safe to use :)
